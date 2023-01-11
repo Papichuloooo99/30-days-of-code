@@ -1,2 +1,2 @@
 # 30-days-of-code
-This is an attemptt to try and code for 30 days
+This is an attempt to try and code for 30 days
