@@ -4,37 +4,92 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Understanding Responsiveness</title>
+    <title>E-commerce Site</title>
+
+    <script src="https://kit.fontawesome.com/5e15c07837.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <div class="navbar">
-            <img src="logo.jpg" alt="Logo" class="logo">
-            <nav>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Collection</a></li>
-                    <li><a href="#">Contact</a></li>
-                    
-                </ul>
-            </nav>
-            <img src="cart.png" alt="cart" class="cart">
+    <section id="header">
+        <a href="#"><img src="img/logo/logo.png" alt="logo" class="logo"></a>
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
+
+            </ul>
         </div>
-        <div class="content">
-            <a href="#" class="btn">Latest Collection</a>
-            <h1>You should always <br> look good</h1>
-            <p>Collections that help you look good</p>
-            <div class="arrow-icons"></div>
-             <img src="" alt="" class="feature-image">
-             <div class="social-links">
-                <a href="#">Facebook</a>
-                <a href="#">Insagram</a>
-                <a href="#">Twitter</a>
-             </div>
+        
+    </section>
+    <section id="hero">
+        <h4>Trade-in-offer</h4>
+        <h2>Super value deals</h2>
+        <h1>On all products</h1>
+        <p>Save more with coupons & up to 70% off</p>
+        <button>Shop Now</button>
+
+
+    </section>
+    <section id="feature" class="section-p1">
+        <div class="fe-box">
+            <img src="img/feature/f1.png" alt="">
+            <h6>Free Shipping</h6>
 
         </div>
-    </div>
+        <div class="fe-box">
+            <img src="img/feature/f2.png" alt="">
+            <h6>Online Order</h6>
+
+        </div>
+        <div class="fe-box">
+            <img src="img/feature/f3.png" alt="">
+            <h6>Save Money</h6>
+
+        </div>
+        <div class="fe-box">
+            <img src="img/feature/f4.png" alt="">
+            <h6>Promotions</h6>
+
+        </div>
+        <div class="fe-box">
+            <img src="img/feature/f5.png" alt="">
+            <h6>Happpy Sell</h6>
+
+        </div>
+        <div class="fe-box">
+            <img src="img/feature/f6.png" alt="">
+            <h6>Support</h6>
+
+        </div>
+    </section>
+    <section id="product1" class="section-p1">
+        <h2>Featured Prroducts</h2>
+        <p>Summer Collections New Modern Design</p>
+        <div class="pro-container">
+            <div class="pro">
+                <img src="img/products/f1.jpg" alt="">
+                        </div>
+                        <div class="des">
+                            <span>Addidas</span>
+                            <h5>Cartoon Man Shrits</h5>
+                            <div class="star">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <h4>$78</h4>
+                        </div>
+                        <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+
+        </div>
+
+    </section>
+    <script src="script.js"></script>
 </body>
 </html>
